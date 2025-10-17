@@ -206,10 +206,10 @@ const FAQItem = ({
             >
               <svg
                 className={`w-full h-full transition-colors duration-300 ${isOpen
-                    ? "text-blue-600 dark:text-blue-400"
-                    : isHovered
-                      ? "text-gray-700 dark:text-gray-200"
-                      : "text-gray-500 dark:text-gray-400"
+                  ? "text-blue-600 dark:text-blue-400"
+                  : isHovered
+                    ? "text-gray-700 dark:text-gray-200"
+                    : "text-gray-500 dark:text-gray-400"
                   }`}
                 fill="none"
                 stroke="currentColor"
@@ -411,7 +411,7 @@ export default function Home() {
         className="relative bg-white dark:bg-black min-h-screen flex flex-col items-center justify-center text-center px-4 sm:px-6 py-8 sm:py-16 pt-16 sm:pt-24 bg-cover bg-center bg-no-repeat overflow-hidden"
         style={{ backgroundImage: "url(/bg.png)" }}
       >
-        
+
         <div className="relative z-10 max-w-6xl mx-auto w-full flex flex-col">
           <motion.h1
             variants={fadeInUp}
@@ -758,10 +758,11 @@ export default function Home() {
                 DSAMate helps you do it better
               </span>.
               <br /><br />
-              <span className="block bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 px-4 py-2 rounded-lg font-semibold text-white">
-                Mark questions, revisit tough ones, solve a new problem every day,
-                and keep your streak alive.
-              </span>
+              <div class="flex justify-center items-center p-4">
+                <span class="block bg-gradient-to-r from-blue-600 to-cyan-600 text-white font-semibold text-center text-sm sm:text-base px-6 py-3 rounded-lg shadow-lg transition-all duration-300 ease-in-out hover:from-blue-700 hover:to-cyan-700 hover:shadow-xl hover:scale-105 hover:-translate-y-1 cursor-pointer">
+                  Mark, revisit, solve. Keep the streak alive. 🔥
+                </span>
+              </div>
             </p>
 
           </motion.div>
