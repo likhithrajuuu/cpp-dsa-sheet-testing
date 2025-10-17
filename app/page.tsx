@@ -758,8 +758,8 @@ export default function Home() {
                 DSAMate helps you do it better
               </span>.
               <br /><br />
-              <div class="flex justify-center items-center p-4">
-                <span class="block bg-gradient-to-r from-blue-600 to-cyan-600 text-white font-semibold text-center text-sm sm:text-base px-6 py-3 rounded-lg shadow-lg transition-all duration-300 ease-in-out hover:from-blue-700 hover:to-cyan-700 hover:shadow-xl hover:scale-105 hover:-translate-y-1 cursor-pointer">
+              <div className="flex justify-center items-center p-4">
+                <span className="block bg-gradient-to-r from-blue-600 to-cyan-600 text-white font-semibold text-center text-sm sm:text-base px-6 py-3 rounded-lg shadow-lg transition-all duration-300 ease-in-out hover:from-blue-700 hover:to-cyan-700 hover:shadow-xl hover:scale-105 hover:-translate-y-1 cursor-pointer">
                   Mark, revisit, solve. Keep the streak alive. 🔥
                 </span>
               </div>
